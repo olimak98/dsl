@@ -1,10 +1,9 @@
-folder = "projects/"
 project_name = "project_wp1"
 repo = "olimak98/wp1"
 repo_name = "wp1"
 branch = "master"
 
-freeStyleJob(folder + project_name) {
+freeStyleJob(project_name) {
     scm {
         github(repo, branch)
     }

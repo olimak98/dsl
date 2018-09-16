@@ -11,6 +11,6 @@ freeStyleJob(project_name) {
         githubPush()
     }
     steps {
-        batchFile('XCopy C:\\Users\\kamil\\.jenkins\\workspace C:\\nginx-1.14.0\\html /s /y')
+        batchFile('XCopy C:\\Users\\kamil\\.jenkins\\workspace C:\\nginx-1.14.0\\html /s /y /exclude:jobDsl')
     }
 }

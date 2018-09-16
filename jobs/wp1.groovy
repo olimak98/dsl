@@ -1,4 +1,4 @@
-project_name = "wp1"
+project_name = "6tgjsdjfjdhgf"
 repo = "olimak98/wp1"
 branch = "master"
 

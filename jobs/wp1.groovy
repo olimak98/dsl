@@ -4,7 +4,7 @@ repo = "olimak98/wp1"
 repo_name = "wp1"
 branch = "master"
 
-freeStyleJob(project_name) {
+freeStyleJob(folder + project_name) {
     scm {
         github(repo, branch)
     }
@@ -12,6 +12,6 @@ freeStyleJob(project_name) {
         githubPush()
     }
     steps {
-        batchFile('XCopy C:\\Users\\kamil\\.jenkins\\workspace C:\\nginx-1.14.0\\html /s /y')
+        batchFile('XCopy C:\\Users\\kamil\\.jenkins\\workspace\\'project_name' C:\\nginx-1.14.0\\html\\'project_name' /s /y')
     }
 }

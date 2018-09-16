@@ -1,6 +1,6 @@
 folder = "projects/"
 project_name = "project_wp1"
-repo = "https://github.com/olimak98/wp1.git"
+repo = "olimak98/wp1.git"
 repo_name = "wp1"
 branch = "master"
 

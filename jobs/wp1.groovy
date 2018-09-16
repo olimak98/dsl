@@ -1,6 +1,5 @@
 project_name = "wp1"
 repo = "olimak98/wp1"
-repo_name = "wp1"
 branch = "master"
 
 freeStyleJob(project_name) {
